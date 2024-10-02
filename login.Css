@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+}
+.background{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg, azure, rgb(101, 48, 148) );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    border-style: groove;
+    border-radius: 15px;
+    height: 420px;
+    width: 800px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 10px 6px rgb(143, 139, 139);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.background > .container > .form{
+    background-color: rgb(216, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 55px;
+    font-family: verdana;
+    font-size: 1.3em;
+    margin-right: 20px;
+}
+.background > .container > .form h4{
+    margin-bottom: 50px;
+}
+.background > .container > .form input{
+    margin-left: 50px;
+    background-color: rgb(173, 204, 204);
+    border: none;
+    border-style: groove;
+    font-family: verdana;
+    border-radius: 5px;
+}
+.background > .container > .form label{
+    font-family: verdana;
+    font-size: 0.7em;
+}
+.background > .container > .form h4{
+    margin-bottom: 50px;
+}
